@@ -1,12 +1,16 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% capture logo_name %}{{ site.logo_name }}{% endcapture %}
 
 <div class="masthead" style="opacity: {{site.masthead-opacity}} !important; {% if site.sticky-masthead %} position: sticky;{% endif %}">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        {% unless logo_path == empty %}
+        <!-- {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
-        {% endunless %}
+        {% endunless %} -->
+        {% unless logo_name == empty %}
+        <a class="site-logo-name" href="{{ '/' | relative_url }}">{{ logo_name }}</a>
+      {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
@@ -14,7 +18,7 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} {% if link.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} {% if link.blank %} rel="noopener noreferrer nofollow"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>

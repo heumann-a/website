@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% if page.entrycontent.imageURL or page.entrycontent.overlay_color %}
+  {% include blogentry__hero.html %}
+{% endif %}
+
+<div id="main" role="main">
+    
+
+    <section class="page__content blog__content" itemprop="text">
+      {{ content }}
+    </section>
+</div>
