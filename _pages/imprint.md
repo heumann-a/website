@@ -16,16 +16,16 @@ Alexnder Heumann
 
 
 #### Kontakt
-e-Mail: admin[at]heumann.net
+e-Mail: info[at]heumann.net
 <br>  
   
-[Website](https://perstarke-webdev.de/)   
+[Website](https://heumann.net)   
 
   
 ## Datenschutzerklärung
 
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Per Starke auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Alexander Heumann auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
