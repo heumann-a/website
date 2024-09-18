@@ -1,4 +1,5 @@
 .idea
 .DS_Store
+.ruby-bundler
 _site
 Gemfile.lock

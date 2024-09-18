@@ -15,6 +15,7 @@ title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://heumann.net" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
+permalink                : pretty
 repository               : "heumann-a/website" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png
 logo                     : "/assets/images/logo.jpeg" # Site logo displayed in the masthead

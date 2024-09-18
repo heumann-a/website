@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impressum und Datenschutz
-permalink: /imprint
+permalink: /imprint/
 ---
 
 #### German Imprint
