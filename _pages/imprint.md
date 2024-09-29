@@ -12,7 +12,7 @@ required by German Law for individuals. I just happen to have a short version an
 <hr>
 
 #### Anbieter und Verantwortliche Person
-Alexnder Heumann
+Alexander Heumann
 
 
 #### Kontakt

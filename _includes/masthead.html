@@ -10,7 +10,7 @@
         {% endunless %} -->
         {% unless logo_name == empty %}
         <a class="site-logo-name" href="{{ '/' | relative_url }}">{{ logo_name }}</a>
-      {% endunless %}
+        {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
