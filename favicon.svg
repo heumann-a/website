@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.461355"
+     inkscape:cx="159.78321"
+     inkscape:cy="210.079"
+     inkscape:window-width="2560"
+     inkscape:window-height="1368"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g8"
+       style="fill:#cbe36d;fill-opacity:1">
+      <path
+         id="rect6"
+         style="opacity:1;fill:#cbe36d;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:0.695542;paint-order:markers fill stroke"
+         d="M 254.3418 69.769531 L 253.50977 71.404297 L 378.86133 423.5332 L 433.38086 423.5332 L 433.38086 422.88672 L 433.24023 423.0293 L 308.40039 69.769531 L 254.3418 69.769531 z M 215.74609 145.59961 L 183.27734 209.39062 L 259.50781 423.5332 L 314.68555 423.5332 L 215.74609 145.59961 z M 145.51367 283.58789 L 74.568359 422.97852 L 73.417969 422.97852 L 73.417969 423.5332 L 195.33203 423.5332 L 145.51367 283.58789 z " />
+      <rect
+         style="opacity:1;fill:#cbe36d;fill-opacity:1;stroke:none;stroke-width:4.85726;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:0.695542;paint-order:markers fill stroke"
+         id="rect8"
+         width="121.97049"
+         height="36.943989"
+         x="236.97238"
+         y="252.31023" />
+    </g>
+  </g>
+</svg>

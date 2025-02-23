@@ -1,0 +1,26 @@
+{% capture overlay_img_path %}{{ page.entrycontent.imageURL | relative_url }}{% endcapture %}
+
+{% if page.entrycontent.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ page.entrycontent.overlay_filter }}{% endcapture %}
+{% elsif page.entrycontent.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.entrycontent.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif page.entrycontent.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.entrycontent.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.entrycontent.image_description %}
+  {% assign image_description = page.entrycontent.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<div class="blogentry__hero{% if page.entrycontent.overlay_color or page.entrycontent.imageURL %}--overlay{% endif %}"
+     style="{% if page.entrycontent.overlay_color %}background-color: {{ page.entrycontent.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; height: 50vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  {% if page.entrycontent.caption %}
+    <span class="blogentry__hero-caption">{{ page.entrycontent.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>

@@ -1,0 +1,30 @@
+---
+title: "Blog"
+
+layout: page
+
+permalink: /blog/
+
+header:
+    overlay_image: /assets/images/blog-header.jpg
+    overlay_filter: rgba(0, 0, 0, 0.6)
+    caption: "Photo by **Stable Diffusion**"
+
+excerpt: "**Just some random stuff i like writing about**"
+
+---
+
+
+<section class="site-section" id="section-1">
+
+        {% for post in site.posts %}
+
+            <div class="box blog-entry">
+                <a href="{{ post.url }}"></a>
+                {% include image-text-row-blogentry param=post.entrycontent %}
+            </div>
+
+        {% endfor %}
+
+</section>
+

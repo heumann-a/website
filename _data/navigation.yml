@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "Home"
+    url: "/"
+    blank: true
+    description: "Home"
+  - title: "Blog"
+    url: /blog
+    blank: false
+  - title: "About"
+    url: /about
+  #   blank: false
+  # - title: "Section 3"
+  #   url: /#section-3
+  #   blank: false
+  # - title: "Section 4"
+  #   url: /#section-4
+  #   blank: false

@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+.ruby-bundler
+_site
+node_modules
+Gemfile.lock
